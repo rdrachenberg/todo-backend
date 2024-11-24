@@ -1,10 +1,14 @@
-# Welcome to the ToDo Backend Setup Guide
+# Todo Backend Setup Guide
 
-Follow these steps to configure and run the ToDo Backend application.
+Follow these steps to configure and run the Todo Backend application.
+
+## Prestep: Clone the repo 
+### In your terminal or command prompt run the following
+    git clone https://github.com/rdrachenberg/todo-backend.git
 
 ## Step 1: Prepare the Environment Configuration File
 1. Locate the `example.env` file in the project directory.
-2. Rename it to `.env`.
+2. Rename it to `.env`
 3. Save the file after renaming.
 
 ## Step 2: Configure the Database Connection
@@ -35,4 +39,4 @@ Server running on port 8080
 ```
 
 ## Congratulations!
-The ToDo Backend Express application is now up and running.
+The Todo backend Express application is now up and running.
