@@ -34,6 +34,29 @@ Follow these steps to configure and run the Todo Backend application.
 If everything is configured correctly, you should see the following output in the terminal:
 
 ```
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+
+✔ Generated Prisma Client (v5.22.0) to ./node_modules/@prisma/client in 278ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Want to react to database changes in your app as they happen? Discover how with Pulse: https://pris.ly/tip-1-pulse
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": MySQL database "todos" at "localhost:3306"
+
+MySQL database todos created at localhost:3306
+
+🚀  Your database is now in sync with your Prisma schema. Done in 121ms
+
+✔ Generated Prisma Client (v5.22.0) to ./node_modules/@prisma/client in 281ms
+
+
+> todo-backend@1.0.0 seed
+> node prisma/seed.js
+
 seeded db
 Server running on port 8080
 ```
