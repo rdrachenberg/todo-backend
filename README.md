@@ -2,9 +2,13 @@
 
 Follow these steps to configure and run the Todo Backend application.
 
-## Prestep: Clone the repo 
+## Presteps: Clone the repo & run mysql instance
 ### In your terminal or command prompt run the following
     git clone https://github.com/rdrachenberg/todo-backend.git
+
+### Make sure to have a local instance of mysql running
+[Ways to init mysql mac OS](https://www.geeksforgeeks.org/how-to-install-mysql-on-macos/)
+[Additional resources PC instructions](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
 ## Step 1: Prepare the Environment Configuration File
 1. Locate the `example.env` file in the project directory.
